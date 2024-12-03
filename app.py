@@ -6,7 +6,7 @@ from unidecode import unidecode
 import pandas as pd
 import os
 
-crawler = FirecrawlApp(api_key=os.getenv('FIRECRAWL_API_KEY'))
+crawler = FirecrawlApp(api_key=os.getenv('API key comes here'))
 
 class MemberSchema(BaseModel):
     firstname: str
